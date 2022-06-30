@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+    <head>
+        <title>
+            Mooner
+        </title>
+        <style>
+            body{
+                text-align: center;
+            }
+            .header{
+                width: 50%;
+                height: auto;
+            }
+            @font-face {
+            font-family: 'Lato';
+            font-style: normal;
+            font-weight: 300;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/lato/v17/S6u9w4BMUTPHh7USSwiPGQ.woff2) format('woff2');
+            unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+            mso-font-alt: Arial;
+        }
+        body {
+            font-family: 'Lato';
+        }
+        </style>
+    </head>
+    <body>
+        <table width="100%" border="0" cellpadding="30">
+            <tbody>
+                <tr>
+                    <td align="center">
+                        <img align="center" src="https://drive.google.com/uc?export=view&id=19J3JUIsi2XE0RuhRGZn0qEt15B3Osth3" alt="img" class="header">
+                    </td>
+                </tr>
+                <tr style="text-align: center;">
+                    <td>
+                        <table width="100%" border="0" cellpadding="30">
+                            <tbody>
+                                <tr>
+                                    <td align="center">
+                                        <img align="center" src="https://drive.google.com/uc?export=view&id=1Gsay8BPGkCAvmHYMDuf8lipnd92r__LY" width="30%">
+                                    </td>
+                                </tr> 
+                                <tr>
+                                    <td>
+                                        <h1 style="margin-bottom: 10px;"> Order Completed </h1>
+                                        <p>Order id: {{ booking_id }}</p>
+                                        <p>Category:<span style="font-weight: bold;"> {{  category }} </span></p>
+                                        <p>Service Type: <span style="font-weight: bold;"> Self </span></p>
+                                        <br />
+                                        <table align="center" width="30%" border="0" cellpadding="30" style="text-align: right;">
+                                            <tbody>
+                                                <tr>
+                                                    <td style="margin: 0px; padding: 0px; font-weight: bold;">
+                                                        <hr style="width: 100%;" />
+                                                        Total
+                                                        <hr style="width: 100%;" />
+                                                    </td>
+                                                    <td style="margin: 0px; padding: 0px; font-weight: bold;">
+                                                        <hr style="width: 100%;" />
+                                                        {{ budget }}
+                                                        <hr style="width: 100%;" />
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </td>    
+                </tr>
+            </tbody>
+        </table>
+        <table width="100%" border="0" cellpadding="30">
+            <tbody>
+                <tr>
+                    <td align="center">
+                        <img align="center" src="https://drive.google.com/uc?export=view&id=1qwu251xAoUbxW6Zmau1_JEe72diChSno" height="70" width="100">
+                        <h6 style="margin-top: 5px; margin-bottom: 15px; color: #FCA19E; font-size: 16px;"> All right reserved © Mooner </h6>                 
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+</html>

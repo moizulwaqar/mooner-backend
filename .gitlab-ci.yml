@@ -1,0 +1,26 @@
+production_job:
+  stage: deploy
+  only:
+    - master
+
+  script:
+    - bash .gitlab-deploy-production.sh
+
+  environment:
+    name: production
+    url: http://18.216.236.249/
+
+
+staging_job:
+  stage: deploy
+  only:
+    - staging
+
+  script:
+    - bash .gitlab-deploy-staging.sh
+#    - bash ./deploy.sh
+
+  environment:
+    name: staging
+    url: http://18.216.236.249/
+
